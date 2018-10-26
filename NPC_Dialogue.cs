@@ -246,7 +246,7 @@ public class NPC_Dialogue : MonoBehaviour {
             {
                 Invoke("CloseDialogue", 1f);
             }
-            //nuovo dialogo in cui dice quattro minchiate
+          
         }
     }
   /*  private IEnumerator Dialogue() // sdoppia i dialoghi 
@@ -334,7 +334,7 @@ public class NPC_Dialogue : MonoBehaviour {
         {
             //Playerprefs, salva le scelte dei dialoghi
         }
-        //sicuro non funziona perchè setti y piu avanti del dialogo, appena se ne va lo zio franco aggiusta
+        //sicuro non funziona perchè setti y piu avanti del dialogo,
     }
     void CloseDialogue()
     {
