@@ -91,7 +91,7 @@ public class MouseAimCamera : MonoBehaviour
             if(cloneControllerScript.istalking == false) { 
                 if (Input.GetKeyDown(KeyCode.Q)) 
                 {
-                    if (qpressed == false) //non mi chiedere perchè del doppio check ma cosi funzia
+                    if (qpressed == false) 
                     {
                         qpressed = true;
                         Invoke("NoMorePressed", 1f);
